@@ -1,7 +1,7 @@
 package com.desmond.datamigrate.test;
 
-import com.desmond.datamigrate.ge.mg.impl.MigrateTypeDaoImpl;
-import com.desmond.datamigrate.ge.mg.impl.MigrateTypeImpl;
+import com.desmond.datamigrate.ge.mg.impl.dao.MigrateTypeDaoImpl;
+import com.desmond.datamigrate.ge.mg.impl.model.MigrateTypeImpl;
 import com.desmond.datamigrate.ge.mg.intf.MigrateType;
 
 public class Test {

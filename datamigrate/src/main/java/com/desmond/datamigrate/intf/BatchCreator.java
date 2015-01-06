@@ -1,0 +1,7 @@
+package com.desmond.datamigrate.intf;
+
+import com.desmond.datamigrate.ge.mg.intf.MigrateBatch;
+
+public interface BatchCreator {
+	MigrateBatch createBatch(int maxTasks, long server, boolean enqueue, boolean returnFailed, boolean createNewIfExists, String note, String userName, long migrateProviderId) throws Exception;
+}

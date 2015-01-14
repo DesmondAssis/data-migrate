@@ -24,13 +24,13 @@ public class ArticleDaoImpl{
 		long nextPrimaryKey = Counter.getPrimaryKey(Article.class.getName(), conn);
 		
 		PreparedStatement ps = null;
-		String sql = "INSERT INTO art_Article VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+		String sql = "INSERT INTO art_Article VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 		try {
 			ps=conn.prepareStatement(sql);
 			ps.setLong(1, nextPrimaryKey);
 			ps.setTimestamp(2, new Timestamp(new Date().getTime()));
 			ps.setTimestamp(3, new Timestamp(new Date().getTime()));
-						ps.setTimestamp(4, article.getPubDate());			ps.setString(5, article.getTitle());			ps.setString(6, article.getDescription());			ps.setString(7, article.getLink());			ps.setString(8, article.getAuthor());			ps.setString(9, article.getGuid());			ps.setString(10, article.getCategory());			ps.setString(11, article.getComments());
+						ps.setTimestamp(4, article.getPubDate());			ps.setLong(5, article.getCompanyId());			ps.setLong(6, article.getGroupId());			ps.setString(7, article.getTitle());			ps.setString(8, article.getDescription());			ps.setString(9, article.getLink());			ps.setString(10, article.getAuthor());			ps.setString(11, article.getGuid());			ps.setString(12, article.getCategory());			ps.setString(13, article.getComments());
 			
 			update = ps.executeUpdate();
 			log.debug("count= " + update);
@@ -47,12 +47,12 @@ public class ArticleDaoImpl{
 		int update=0;
 		Connection conn = DBUtil.getConnection();
 		PreparedStatement ps=null;
-		String sql = "UPDATE art_Article set createdDate = ?, modifiedDate = ?,"				+ "pubDate = ?,"				+ "title = ?,"				+ "description = ?,"				+ "link = ?,"				+ "author = ?,"				+ "guid = ?,"				+ "category = ?,"				+ "comments = ?" 				+" where articleId = ?";
+		String sql = "UPDATE art_Article set createdDate = ?, modifiedDate = ?,"				+ "pubDate = ?,"				+ "companyId = ?,"				+ "groupId = ?,"				+ "title = ?,"				+ "description = ?,"				+ "link = ?,"				+ "author = ?,"				+ "guid = ?,"				+ "category = ?,"				+ "comments = ?" 				+" where articleId = ?";
 		try {
 			ps = conn.prepareStatement(sql);
 			ps.setTimestamp(1, article.getCreatedDate());
 			ps.setTimestamp(2, new Timestamp(new Date().getTime()));
-						ps.setTimestamp(3, article.getPubDate());			ps.setString(4, article.getTitle());			ps.setString(5, article.getDescription());			ps.setString(6, article.getLink());			ps.setString(7, article.getAuthor());			ps.setString(8, article.getGuid());			ps.setString(9, article.getCategory());			ps.setString(10, article.getComments());			ps.setLong(11, article.getPrimaryKey());
+						ps.setTimestamp(3, article.getPubDate());			ps.setLong(4, article.getCompanyId());			ps.setLong(5, article.getGroupId());			ps.setString(6, article.getTitle());			ps.setString(7, article.getDescription());			ps.setString(8, article.getLink());			ps.setString(9, article.getAuthor());			ps.setString(10, article.getGuid());			ps.setString(11, article.getCategory());			ps.setString(12, article.getComments());			ps.setLong(13, article.getPrimaryKey());
 			
 			update=ps.executeUpdate();		
 			log.debug("DML:" + sql + " affect " + sql + " row.");
@@ -77,7 +77,7 @@ public class ArticleDaoImpl{
 			rs = ps.executeQuery();
 			while(rs.next()) {
 				article = new ArticleImpl();
-								article.setPrimaryKey(rs.getLong(1));				article.setCreatedDate(rs.getTimestamp(2));				article.setModifiedDate(rs.getTimestamp(3));				article.setPubDate(rs.getTimestamp(4));				article.setTitle(rs.getString(5));				article.setDescription(rs.getString(6));				article.setLink(rs.getString(7));				article.setAuthor(rs.getString(8));				article.setGuid(rs.getString(9));				article.setCategory(rs.getString(10));				article.setComments(rs.getString(11));
+								article.setPrimaryKey(rs.getLong(1));				article.setCreatedDate(rs.getTimestamp(2));				article.setModifiedDate(rs.getTimestamp(3));				article.setPubDate(rs.getTimestamp(4));				article.setCompanyId(rs.getLong(5));				article.setGroupId(rs.getLong(6));				article.setTitle(rs.getString(7));				article.setDescription(rs.getString(8));				article.setLink(rs.getString(9));				article.setAuthor(rs.getString(10));				article.setGuid(rs.getString(11));				article.setCategory(rs.getString(12));				article.setComments(rs.getString(13));
 			}
 		} catch (SQLException e) {
 			log.error("error when get ${User} by primaryKey: " + primaryKey, e);

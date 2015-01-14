@@ -9,21 +9,14 @@ import javax.xml.bind.annotation.XmlType;
 @XmlRootElement(name = "rss")
 @XmlType(name = "rss")
 public class ArticleEntry {
-	private String title;
-	private List<Item> items;
-	public String getTitle() {
-		return title;
+	private Channel channel;
+
+	public Channel getChannel() {
+		return channel;
 	}
-	public void setTitle(String title) {
-		this.title = title;
-	}
-	public List<Item> getItems() {
-		return items;
-	}
-	
-    @XmlElement(name = "item")
-	public void setItems(List<Item> items) {
-		this.items = items;
+
+	public void setChannel(Channel channel) {
+		this.channel = channel;
 	}
 	
 }

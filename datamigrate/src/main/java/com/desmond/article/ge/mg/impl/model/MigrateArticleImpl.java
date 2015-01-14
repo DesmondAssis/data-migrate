@@ -7,6 +7,8 @@ import com.desmond.article.ge.mg.impl.model.base.BaseModelImpl;
 
 public class MigrateArticleImpl extends BaseModelImpl implements MigrateArticle{
 		private Long articleId;
+	private Long companyId;
+	private Long groupId;
 	private Timestamp pubDate;
 	private String title;
 	private String description;
@@ -18,6 +20,10 @@ public class MigrateArticleImpl extends BaseModelImpl implements MigrateArticle{
 
 		public Long getArticleId() {		return articleId;	}
 	public void setArticleId(Long articleId) {		this.articleId = articleId;	}
+	public Long getCompanyId() {		return companyId;	}
+	public void setCompanyId(Long companyId) {		this.companyId = companyId;	}
+	public Long getGroupId() {		return groupId;	}
+	public void setGroupId(Long groupId) {		this.groupId = groupId;	}
 	public Timestamp getPubDate() {		return pubDate;	}
 	public void setPubDate(Timestamp pubDate) {		this.pubDate = pubDate;	}
 	public String getTitle() {		return title;	}
@@ -38,7 +44,7 @@ public class MigrateArticleImpl extends BaseModelImpl implements MigrateArticle{
 	
 	public MigrateArticle mockMigrateArticleImpl() {
 		MigrateArticle migratearticle = new MigrateArticleImpl();
-				migratearticle.setArticleId(Math.round(10000d));		migratearticle.setPubDate(new java.sql.Timestamp(new java.util.Date().getTime()));		migratearticle.setTitle("Title" + Math.round(100000000));		migratearticle.setDescription("Description" + Math.round(100000000));		migratearticle.setLink("Link" + Math.round(100000000));		migratearticle.setAuthor("Author" + Math.round(100000000));		migratearticle.setGuid("Guid" + Math.round(100000000));		migratearticle.setCategory("Category" + Math.round(100000000));		migratearticle.setComments("Comments" + Math.round(100000000));
+				migratearticle.setArticleId(Math.round(10000d));		migratearticle.setCompanyId(Math.round(10000d));		migratearticle.setGroupId(Math.round(10000d));		migratearticle.setPubDate(new java.sql.Timestamp(new java.util.Date().getTime()));		migratearticle.setTitle("Title" + Math.round(100000000));		migratearticle.setDescription("Description" + Math.round(100000000));		migratearticle.setLink("Link" + Math.round(100000000));		migratearticle.setAuthor("Author" + Math.round(100000000));		migratearticle.setGuid("Guid" + Math.round(100000000));		migratearticle.setCategory("Category" + Math.round(100000000));		migratearticle.setComments("Comments" + Math.round(100000000));
 		
 		return migratearticle;
 	}

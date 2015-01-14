@@ -9,6 +9,10 @@ public interface Article extends BaseModel{
 	public void setArticleId(Long articleId);
 	public Timestamp getPubDate();
 	public void setPubDate(Timestamp pubDate);
+	public Long getCompanyId();
+	public void setCompanyId(Long companyId);
+	public Long getGroupId();
+	public void setGroupId(Long groupId);
 	public String getTitle();
 	public void setTitle(String title);
 	public String getDescription();

@@ -24,13 +24,13 @@ public class MigrateArticleDaoImpl{
 		long nextPrimaryKey = Counter.getPrimaryKey(MigrateArticle.class.getName(), conn);
 		
 		PreparedStatement ps = null;
-		String sql = "INSERT INTO art_MigrateArticle VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+		String sql = "INSERT INTO art_MigrateArticle VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 		try {
 			ps=conn.prepareStatement(sql);
 			ps.setLong(1, nextPrimaryKey);
 			ps.setTimestamp(2, new Timestamp(new Date().getTime()));
 			ps.setTimestamp(3, new Timestamp(new Date().getTime()));
-						ps.setTimestamp(4, migrateArticle.getPubDate());			ps.setString(5, migrateArticle.getTitle());			ps.setString(6, migrateArticle.getDescription());			ps.setString(7, migrateArticle.getLink());			ps.setString(8, migrateArticle.getAuthor());			ps.setString(9, migrateArticle.getGuid());			ps.setString(10, migrateArticle.getCategory());			ps.setString(11, migrateArticle.getComments());
+						ps.setLong(4, migrateArticle.getCompanyId());			ps.setLong(5, migrateArticle.getGroupId());			ps.setTimestamp(6, migrateArticle.getPubDate());			ps.setString(7, migrateArticle.getTitle());			ps.setString(8, migrateArticle.getDescription());			ps.setString(9, migrateArticle.getLink());			ps.setString(10, migrateArticle.getAuthor());			ps.setString(11, migrateArticle.getGuid());			ps.setString(12, migrateArticle.getCategory());			ps.setString(13, migrateArticle.getComments());
 			
 			update = ps.executeUpdate();
 			log.debug("count= " + update);
@@ -47,12 +47,12 @@ public class MigrateArticleDaoImpl{
 		int update=0;
 		Connection conn = DBUtil.getConnection();
 		PreparedStatement ps=null;
-		String sql = "UPDATE art_MigrateArticle set createdDate = ?, modifiedDate = ?,"				+ "pubDate = ?,"				+ "title = ?,"				+ "description = ?,"				+ "link = ?,"				+ "author = ?,"				+ "guid = ?,"				+ "category = ?,"				+ "comments = ?" 				+" where articleId = ?";
+		String sql = "UPDATE art_MigrateArticle set createdDate = ?, modifiedDate = ?,"				+ "companyId = ?,"				+ "groupId = ?,"				+ "pubDate = ?,"				+ "title = ?,"				+ "description = ?,"				+ "link = ?,"				+ "author = ?,"				+ "guid = ?,"				+ "category = ?,"				+ "comments = ?" 				+" where articleId = ?";
 		try {
 			ps = conn.prepareStatement(sql);
 			ps.setTimestamp(1, migrateArticle.getCreatedDate());
 			ps.setTimestamp(2, new Timestamp(new Date().getTime()));
-						ps.setTimestamp(3, migrateArticle.getPubDate());			ps.setString(4, migrateArticle.getTitle());			ps.setString(5, migrateArticle.getDescription());			ps.setString(6, migrateArticle.getLink());			ps.setString(7, migrateArticle.getAuthor());			ps.setString(8, migrateArticle.getGuid());			ps.setString(9, migrateArticle.getCategory());			ps.setString(10, migrateArticle.getComments());			ps.setLong(11, migrateArticle.getPrimaryKey());
+						ps.setLong(3, migrateArticle.getCompanyId());			ps.setLong(4, migrateArticle.getGroupId());			ps.setTimestamp(5, migrateArticle.getPubDate());			ps.setString(6, migrateArticle.getTitle());			ps.setString(7, migrateArticle.getDescription());			ps.setString(8, migrateArticle.getLink());			ps.setString(9, migrateArticle.getAuthor());			ps.setString(10, migrateArticle.getGuid());			ps.setString(11, migrateArticle.getCategory());			ps.setString(12, migrateArticle.getComments());			ps.setLong(13, migrateArticle.getPrimaryKey());
 			
 			update=ps.executeUpdate();		
 			log.debug("DML:" + sql + " affect " + sql + " row.");
@@ -77,7 +77,7 @@ public class MigrateArticleDaoImpl{
 			rs = ps.executeQuery();
 			while(rs.next()) {
 				migrateArticle = new MigrateArticleImpl();
-								migrateArticle.setPrimaryKey(rs.getLong(1));				migrateArticle.setCreatedDate(rs.getTimestamp(2));				migrateArticle.setModifiedDate(rs.getTimestamp(3));				migrateArticle.setPubDate(rs.getTimestamp(4));				migrateArticle.setTitle(rs.getString(5));				migrateArticle.setDescription(rs.getString(6));				migrateArticle.setLink(rs.getString(7));				migrateArticle.setAuthor(rs.getString(8));				migrateArticle.setGuid(rs.getString(9));				migrateArticle.setCategory(rs.getString(10));				migrateArticle.setComments(rs.getString(11));
+								migrateArticle.setPrimaryKey(rs.getLong(1));				migrateArticle.setCreatedDate(rs.getTimestamp(2));				migrateArticle.setModifiedDate(rs.getTimestamp(3));				migrateArticle.setCompanyId(rs.getLong(4));				migrateArticle.setGroupId(rs.getLong(5));				migrateArticle.setPubDate(rs.getTimestamp(6));				migrateArticle.setTitle(rs.getString(7));				migrateArticle.setDescription(rs.getString(8));				migrateArticle.setLink(rs.getString(9));				migrateArticle.setAuthor(rs.getString(10));				migrateArticle.setGuid(rs.getString(11));				migrateArticle.setCategory(rs.getString(12));				migrateArticle.setComments(rs.getString(13));
 			}
 		} catch (SQLException e) {
 			log.error("error when get ${User} by primaryKey: " + primaryKey, e);

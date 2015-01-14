@@ -23,6 +23,12 @@
     </dependency>
     
     <!-- log -->
+    <dependency>  
+         <groupId>org.slf4j</groupId>  
+         <artifactId>slf4j-api</artifactId>  
+         <version>1.6.1</version>  
+     </dependency>  
+        
     <dependency>
     	<groupId>log4j</groupId>
     	<artifactId>log4j</artifactId>
@@ -34,6 +40,22 @@
         <groupId>mysql</groupId>  
         <artifactId>mysql-connector-java</artifactId>  
         <version>5.1.18</version>  
-    </dependency>  
+    </dependency>
+    
+    <!-- db pool -->
+    <dependency>
+		<groupId>com.jolbox</groupId>
+		<artifactId>bonecp</artifactId>
+		<version>0.7.1.RELEASE</version>
+	</dependency>
+	
+	<!-- db util -->
+	<dependency>
+			<groupId>commons-dbutils</groupId>
+			<artifactId>commons-dbutils</artifactId>
+			<version>1.6</version>
+			<scope>compile</scope>
+			<optional>true</optional>
+		</dependency>
   </dependencies>
 </project>

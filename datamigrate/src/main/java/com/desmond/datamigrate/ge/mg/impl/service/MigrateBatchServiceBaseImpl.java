@@ -29,5 +29,5 @@ public abstract class MigrateBatchServiceBaseImpl {
 		this.dao = dao;
 	}
 
-	private MigrateBatchDaoImpl dao;
+	private MigrateBatchDaoImpl dao = new MigrateBatchDaoImpl();
 }

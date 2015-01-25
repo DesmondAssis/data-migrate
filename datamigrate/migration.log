@@ -1,0 +1,1344 @@
+DEBUG main com.desmond.datamigrate.ge.mg.impl.dao.MigrateTypeDaoImpl - count= 1
+DEBUG main com.desmond.datamigrate.ge.mg.impl.dao.MigrateProviderDaoImpl - count= 1
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liferay._article' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liferay._article' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liferay._article' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liferay._article' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liferay._article' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liferay._article' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liferay._article' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liferay._article' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liferay._article' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liferay._article' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liferay._article' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liferay._article' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liferay._article' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liferay._article' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liferay._article' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liferay._article' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+java.sql.SQLException: Incorrect integer value: '
+				ã€€ã€€2014å¹´Aè‚¡å¸‚åœºèž�èµ„é¢�ä¸º7400äº¿ï¼Œè€ƒè™‘å‡�æŒ�2500äº¿ï¼Œå�ˆè®¡èµ„é‡‘éœ€æ±‚9900äº¿ã€‚ä¿�å®ˆä¼°è®¡2015å¹´è‚¡å¸‚èž�' for column 'guid' at row 1
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1073)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+java.sql.SQLException: Incorrect integer value: '
+				ã€€ã€€å��æ§½ä¸�å�œï¼Œæ¬¢ä¹�ä¸�æ­¢ï¼�æ–°æµªNBAç¥žå��æ§½æ �ç›®ç»§ç»­ç™»åœºï¼�ä»Šå¤©éš†å¤š13ä¸­1,2åˆ†10ç¯®æ�¿14åŠ©æ”»ï¼Œè¿™ä¸ª' for column 'guid' at row 1
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1073)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+java.sql.SQLException: Incorrect integer value: '
+				ã€€ã€€åŒ—äº¬æ—¶é—´1æœˆ6æ—¥æ¶ˆæ�¯ï¼Œæ€»å¥–é‡‘ä¸º1000,000ç¾Žå…ƒçš„WTAé¡¶çº§å·¡å›žèµ›å¸ƒé‡Œæ–¯ç�­å›½é™…èµ›å±•å¼€äº†å‡ºæ�¥çš„' for column 'guid' at row 1
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1073)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+java.sql.SQLException: Incorrect integer value: '
+				ã€€ã€€äººæ°‘ç½‘ä¸Šæµ·1æœˆ6æ—¥ç”µ(è®°è€…æ²ˆæ–‡æ•�)ä»Šå¤©ä¸‹å�ˆï¼Œå…¨å›½å®‰å…¨ç”Ÿäº§ç”µè§†ç”µè¯�ä¼šè®®å�¬å¼€ã€‚ä¼šè®®æ€»ç»“' for column 'guid' at row 1
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1073)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+java.sql.SQLException: Incorrect integer value: '
+				ã€€ã€€å¤§å…¬ç½‘1æœˆ4æ—¥è®¯æ�®æœ¬æ¸¯æ–‡æ±‡æŠ¥æŠ¥é�“ï¼Œâ€œåˆ°å�Žæ�¥è‡ªå·±å�¦ç™½é—®é¢˜çš„æ—¶å€™ï¼Œæ¯�è®²ä¸€ç¬”ï¼Œè‡ªå·±éƒ½è§¦' for column 'guid' at row 1
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1073)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+java.sql.SQLException: Incorrect integer value: '
+				ã€€ã€€å¤§åŠ¿çŒœæƒ³ï¼š3300ç‚¹éœ‡è�¡ï¼Ÿ 
+
+ã€€ã€€å®žçŽ°æ¦‚çŽ‡ï¼š75%
+
+ã€€ã€€å…·ä½“ç�†ç”±ï¼šIPOæ��é€Ÿã€�æ¬§ç¾Žè‚¡å¸‚æš´è·Œï¼Œä¸¤' for column 'guid' at row 1
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1073)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+java.sql.SQLException: Incorrect integer value: '
+				ã€€ã€€æŠ•èµ„å…¬å�¸å�·æ¬¾è·‘è·¯é¢‘å�‘ é¢„è°‹ä½œæ¡ˆè¯ˆéª—ç‰¹å¾�æ˜Žæ˜¾
+
+ã€€ã€€â€•â€•æ�­ç§˜è¡Œéª—10å¤šä¸ªçœ�åŒºå¸‚çš„æŠ•èµ„éª—' for column 'guid' at row 1
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1073)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+java.sql.SQLException: Incorrect integer value: '
+				ã€€ã€€ä¸­æ–°ç½‘1æœˆ6æ—¥ç”µ åœ¨æ˜¨æ—¥å�¬å¼€çš„æœˆåº¦ç»�é”€å•†åº“å­˜é¢„è­¦æŒ‡æ•°å�‘å¸ƒä¼šä¸Šï¼Œæµ�é€šå��ä¼šå¯¹ä¹‹å‰�æ·±åœ³å¸‚' for column 'guid' at row 1
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1073)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+java.sql.SQLException: Incorrect integer value: '
+				ã€€ã€€æ–°äº¬æŠ¥å¿«è®¯(è§�ä¹ è®°è€…çŽ‹å¤§é¹�) 1æœˆ3æ—¥ä¸Šå�ˆï¼Œæ¹–åŒ—çœ�å®œåŸŽå¸‚å­”æ¹¾é•‡ä¸€æ–½å·¥çŽ°åœºå�‘ç”Ÿçº çº·ï¼Œä¸€' for column 'guid' at row 1
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1073)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+java.sql.SQLException: Incorrect integer value: '
+				ã€€ã€€å��ä½™å¹´æ�¥ï¼Œç¨Žæ”¶å¾�æ”¶ç®¡ç�†æ³•è¿Žæ�¥é¦–æ¬¡å¤§ä¿®ï¼Œä¿®è®¢å�Žçš„è�‰æ¡ˆæ�¡æ¬¾ç”±æ­¤å‰�çš„94æ�¡å¢žè‡³139æ�¡ã€‚ç¨Ž' for column 'guid' at row 1
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1073)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+java.sql.SQLException: Incorrect integer value: '
+				ã€€ã€€ä¸­æ–°ç¤¾çº½çº¦1æœˆ5æ—¥ç”µ (è®°è€… é˜®ç…œç�³)çº½çº¦è­¦æ–¹çš„åˆ�æ­¥æ¶ˆæ�¯ç§°ï¼Œçº½çº¦ä¸¤å��è­¦å¯Ÿ5æ—¥å¤œè¯•å›¾é˜»æ­¢' for column 'guid' at row 1
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1073)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+java.sql.SQLException: Incorrect integer value: '
+				ã€€ã€€ã€�çœŸæ­£çš„ä»»æ€§ï¼šç”·å­�éª‘æ‘©æ‰˜ç™¾å…¬é‡Œå°±åŒ» åˆ€å°±æ�’åœ¨è„‘è¢‹ä¸Šã€‘å·´è¥¿ä¸œåŒ—éƒ¨ï¼Œä¸€å��æ‘©çš„å�¸æœºåœ¨' for column 'guid' at row 1
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1073)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+java.sql.SQLException: Incorrect integer value: '
+				ã€€ã€€è½¬è‡ªç¦�å¸ƒæ–¯ä¸­æ–‡ç½‘
+
+ã€€ã€€1ã€�ç»­èˆª8ä¸ªæœˆçš„æ™ºèƒ½æ‰‹è¡¨
+
+
+
+ã€€ã€€æ³•å›½æ™ºèƒ½ç¡¬ä»¶è®¾å¤‡ç”Ÿäº§å•†Withings' for column 'guid' at row 1
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1073)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+java.sql.SQLException: Incorrect integer value: '
+				ã€€ã€€ã€�çŽ¯ç�ƒç½‘ç»¼å�ˆæŠ¥é�“ã€‘æ�®éŸ©å›½çº½è¥¿æ–¯é€šè®¯ç¤¾1æœˆ5æ—¥æŠ¥é�“ï¼ŒéŸ©å›½æ”¿åºœ5æ—¥å†³å®šå°†æŠŠæ–°å�‘æŽ˜å‡ºçš„æœ�' for column 'guid' at row 1
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1073)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+java.sql.SQLException: Incorrect integer value: '
+				ã€€ã€€æ–°æµªæ‰‹æœºè®¯ 2015å¹´1æœˆ6æ—¥ä¸Šå�ˆæ¶ˆæ�¯ï¼Œè�”æƒ³äºŽCES2015å¼€å±•å‰�å¤•æŽ¨å‡ºæ——ä¸‹é¦–æ¬¾64ä½�è‹±ç‰¹å°”å¤„ç�†å™¨' for column 'guid' at row 1
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1073)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+java.sql.SQLException: Incorrect integer value: '
+				ã€€ã€€æ–°æµªæ‰‹æœºè®¯ 2015å¹´1æœˆ6æ—¥ä¸Šå�ˆæ¶ˆæ�¯ï¼Œè�”æƒ³äºŽCES2015å¼€å±•å‰�å¤•æŽ¨å‡ºVIBE X2 Proæ–°æ¬¾æ™ºèƒ½æ‰‹æœºï¼Œè¯¥' for column 'guid' at row 1
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1073)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liferay.article_article' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liferay.article_article' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liferay.article_article' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liferay.article_article' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liferay.article_article' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liferay.article_article' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liferay.article_article' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liferay.article_article' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liferay.article_article' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liferay.article_article' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liferay.article_article' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liferay.article_article' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liferay.article_article' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liferay.article_article' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liferay.article_article' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liferay.article_article' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liferay.article_article' doesn't exist
+	at sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3609)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'link' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3607)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'link' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3607)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'link' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3607)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'link' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3607)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'link' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3607)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'link' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3607)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'link' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3607)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'link' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3607)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'link' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3607)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'link' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3607)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'link' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3607)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'link' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3607)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'link' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3607)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'link' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3607)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'link' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3607)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'link' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3607)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+ERROR main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - error when insert
+com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'link' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3607)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3541)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2002)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2163)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2624)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2127)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2427)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2345)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2330)
+	at com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl.add(ArticleDaoImpl.java:43)
+	at com.desmond.article.IngestArticle.ingest(IngestArticle.java:75)
+	at com.desmond.article.IngestArticle.main(IngestArticle.java:30)
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+ERROR main com.desmond.datamigrate.util.jdbc.QueryUtil - Null connection
+java.sql.SQLException: Null connection
+	at org.apache.commons.dbutils.QueryRunner.query(QueryRunner.java:323)
+	at org.apache.commons.dbutils.QueryRunner.query(QueryRunner.java:212)
+	at com.desmond.datamigrate.util.jdbc.QueryUtil.queryMap(QueryUtil.java:33)
+	at com.desmond.datamigrate.util.jdbc.QueryUtil.main(QueryUtil.java:45)
+INFO main com.desmond.datamigrate.util.jdbc.QueryUtil - 
+INFO main com.desmond.datamigrate.util.jdbc.QueryUtil - {min(age)=12, max(age)=16}
+INFO main com.desmond.datamigrate.util.jdbc.QueryUtil - {minAgeId=12, maxAgeId=16}
+INFO main com.desmond.datamigrate.util.jdbc.QueryUtil - {minAgeId=12, maxAgeId=16}
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1
+DEBUG main com.desmond.article.ge.mg.impl.dao.ArticleDaoImpl - count= 1

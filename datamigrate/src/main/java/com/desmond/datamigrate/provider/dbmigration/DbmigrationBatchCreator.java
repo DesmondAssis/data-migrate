@@ -4,6 +4,8 @@ import java.util.List;
 import java.util.Properties;
 import java.util.concurrent.atomic.AtomicInteger;
 
+import org.apache.commons.lang3.StringUtils;
+
 import com.desmond.datamigrate.QueryManager;
 import com.desmond.datamigrate.ge.mg.intf.MigrateBatch;
 import com.desmond.datamigrate.intf.BatchCreator;
@@ -26,14 +28,14 @@ public class DbmigrationBatchCreator implements BatchCreator {
 		int groupId = 1;
 		int typeId = 3;
 		int batchSize = 2;
-		boolean isLowestFetch = true;
+		boolean isHighestFetch = true;
 		
 		long startId = Long.MAX_VALUE;
-		String userName = "Desmond";
+		userName = StringUtils.isBlank(userName) ? "Desmond" : userName;
 		
 		
 		Long[] minMaxArticleIds = QueryUtil.getMinMaxArticleId(migrateProviderId, groupId, typeId);
-		startId = isLowestFetch ? minMaxArticleIds != null ? minMaxArticleIds[0] : Long.MAX_VALUE 
+		startId = isHighestFetch ? minMaxArticleIds != null ? minMaxArticleIds[0] : Long.MAX_VALUE 
 					: minMaxArticleIds != null ? minMaxArticleIds[1] : Long.MAX_VALUE;
 		List<Long> entryIds = QueryManager.getBatchStories(groupId, startId, batchSize);
 		AtomicInteger counter = new AtomicInteger();

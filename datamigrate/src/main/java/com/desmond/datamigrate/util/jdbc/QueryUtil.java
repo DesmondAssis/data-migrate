@@ -30,7 +30,7 @@ public class QueryUtil {
 			
 			return new Long[] {
 				(Long)resultMap.get(SQLConstants.COLUMN_ALIAS_MINSOURCEID),
-				(Long)resultMap.get(SQLConstants.COLUMN_ALIAS_MINSOURCEID)
+				(Long)resultMap.get(SQLConstants.COLUMN_ALIAS_MAXSOURCEID)
 					
 			};
 		}

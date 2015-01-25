@@ -68,4 +68,5 @@ public enum MigrateStatusEnum {
 		
 		return migrateEnum != null ? migrateEnum.getId() : 0;
 	}
+	
 }
